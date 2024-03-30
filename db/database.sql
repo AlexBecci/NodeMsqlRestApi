@@ -18,5 +18,8 @@ VALUES
     (2, 'alex', 3000),
     (3, 'maximiliano', 2000),
     (4, 'brian', 10);
-
+/* Select by id */
 SELECT * FROM employee WHERE id=2;
+
+/* dELETE by id*/
+DELETE FROM employee WHERE id=4;
