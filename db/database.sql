@@ -18,3 +18,5 @@ VALUES
     (2, 'alex', 3000),
     (3, 'maximiliano', 2000),
     (4, 'brian', 10);
+
+SELECT * FROM employee WHERE id=2;
